@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #50187382;
+    cursor: pointer;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F3F3;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    background-color: #FBFBFB;
+    border: 2px solid #ECEFF7;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.header span {
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    width: 400px;
+    padding: 30px 40px 10px 40px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.icon {
+    display: inline;
+}
+
+form {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form .info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 160px;
+    border-radius: 15px;
+}
+
+.info span {
+    font-size: 18px;
+    color: #5e5e5e;
+    display: flex;
+    flex-direction: column;
+}
+
+.info input {
+    width: 260px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid #e5e5e5;
+    text-indent: 1em;
+    font-size: 16px;
+}
+
+.info input:focus {
+    outline-color: #50187382;
+}
+
+#eyeClose {
+    /* display: none; */
+    width: 20px;
+    position: absolute;
+    bottom: 22px;
+    right: 30px;
+}
+
+#eyeOpen {
+    display: none;
+    width: 20px;
+    position: absolute;
+    bottom: 24px;
+    right: 30px;
+}
+
+#logIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logIn a {
+    text-decoration: none;
+    color: #5e5e5e;
+}
+
+#logInBtn {
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#logInBtn:focus {
+    background-color: #aaa;
+}
+
+.container #turnToCreateAccount {
+    width: 380px;
+    height: 60px;
+    text-decoration: none;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#turnToCreateAccount a {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+hr {
+    color: #aaa;
+}

@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #E6E6FA;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+header {
+    height: 60px;
+    background-color: rgba(64, 52, 80, 0.4);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px 20px 40px;
+}
+
+header div {
+    position: relative;
+    left: 80px;
+}
+
+header div span {
+    width: 700px;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+header nav a {
+    height: 40px;
+    color: #f0f8ff;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+header nav a:hover {
+    color: #574266;
+    filter: brightness(120%);
+}
+
+#mainBox {
+    display: flex;
+    justify-content: center;
+}
+
+#mainBox li {
+    width: 800px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 1px solid #50187382;
+}
+
+#mainBox li:hover {
+    filter: brightness(110%);
+    transform: scale(1.05);
+    transition: 0.15s;
+    color: #50187382;
+}
+
+.info {
+    height: 80px;
+    width: 240px;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    border-right: 2px double #50187382;
+}
+
+.info img {
+    width: 60px;
+    height: 60px;
+    border: 2px #deb887dc solid;
+    border-radius: 100%;
+    transition: 0.2s;
+    margin-right: 20px;
+}
+
+.info h3 {
+    font-size: 20px;
+    color: #50187382;
+}
+
+.info .time {
+    font-size: 12px;
+    font-weight: 55s0;
+    color: #50187382;
+}
+
+.cont {
+    position: absolute;
+    left: 280px;
+    right: 20px;
+    text-indent: 2em;
+    font-size: 14px;
+}
+
+.footer {
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.cue {
+    color: #f0f8ff;
+    font-size: 30px;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 560px;
+    height: 140px;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    text-indent: 2em;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+    outline-color: #50187382;
+}
+
+#sendBtn {
+    color: #f0f8ff;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    color: #f0f8ff;
+    background-color: rgb(181, 158, 195);
+    border: none;
+    border-radius: 5px;
+}
